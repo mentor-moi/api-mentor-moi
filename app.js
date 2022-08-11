@@ -11,7 +11,7 @@ const mentors = require("./routes/mentors")
 dotenv.config()
 
 mongoose.connect(
-  process.env.DB_CONNECT_DEV,
+  process.env.DB_CONNECT_PROD,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

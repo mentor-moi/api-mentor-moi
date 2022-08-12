@@ -94,10 +94,6 @@ router.post("/forgotpassword", async (req, res, next) => {
   try {
     const user = await User.findOne({ email: req.body.email })
 
-    if (!user) {
-      return res.status(400).send("L'email n'existe pas")
-    }
-
     // Reset Token Gen and add to database hashed (private) version of token
     const resetToken = user.getResetPasswordToken()
 

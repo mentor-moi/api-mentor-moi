@@ -17,7 +17,7 @@ const sendEmail = (options) => {
   var opt = {
     auth: {
       api_key:
-        "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",
+        "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",
     },
   }
 

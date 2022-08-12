@@ -16,8 +16,7 @@ const sendEmail = (options) => {
 
   var opt = {
     auth: {
-      api_key:
-        "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",
+      api_key: process.env.EMAIL_PASSWORD,
     },
   }
 

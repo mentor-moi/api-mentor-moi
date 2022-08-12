@@ -8,9 +8,7 @@ const sendEmail = (options) => {
   //     user: process.env.EMAIL_USERNAME,
   //     pass: process.env.EMAIL_PASSWORD,
   //   },
-  //   tls: {
-  //     // do not fail on invalid certs
-  //     rejectUnauthorized: false,
+  //
   //   },
   // })
 
